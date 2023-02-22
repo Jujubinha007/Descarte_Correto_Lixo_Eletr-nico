@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar-se</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+</head>
+<style>
+    .card-login .voltar{
+        text-decoration: none;
+        font-size: 2em;
+        color: lightgray;
+        font-family:'Arial Narrow Bold';
+        font-weight: bold;
+        float: right;
+        margin-top: -5%;
+        margin-right: -100%;
+}
+
+h3{
+    color: black;
+    font-family: 'Arial Narrow Bold';
+    font-size: 1em;
+}
+</style>
+<body>
+<form name="login" action="valida_log.php" method="POST">
+    <div class="main-login">
+        <div class="left-login">
+            <img src="../IMGS/LIXO.png" class="left-login-image" alt="livro">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <a href="index.html" class="voltar">X</a>
+                <h1><a href="index.html"><font color="#228B22">SustentNet</font></a></h1>
+                <h2 style="text-decoration: none; border-bottom: none;">Login</h2>
+                <div class="textfield">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" placeholder="Seu e-mail...">
+                  
+                </div><br>
+                <div class="textfield">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" placeholder="Sua senha..."><br>
+                </div>
+
+                <h3>Não sou cadastrado: <a href="cadastrar.php"><font color="blue">Clique Aqui!</font></a></h3>
+                <button type="submit" class="btn-login">Entrar</button>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
