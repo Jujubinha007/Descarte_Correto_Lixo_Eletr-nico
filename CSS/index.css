@@ -1,0 +1,122 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing:border-box;
+  }
+
+ 
+  .menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    background-color: #8bd6ae;
+    width: 100%;
+    position: relative;
+  }
+ 
+  .lixo{
+    width: 63px
+  }
+  
+  .sino{
+    width: 20px
+  }
+
+.dropbtn {
+  background-color: #8bd6ae;
+  color: #03642d;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #8bd6ae;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  #8bd6ae;
+  min-width: 155px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 2px;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.dropdown-content a {
+  color: #03642d;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #49ad76;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #49ad76;
+}
+
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #75a335;
+    color: #c0d8c7;
+    width: 100%;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+    margin-top: 136px;
+    
+}
+ 
+
+.sair{
+  border: 1px solid #03642d;
+
+}
+
+ .menu ul div:last-child{
+  float: right;
+}
+
+section{
+  width: 100%;
+  height: 45rem;
+  background-image: linear-gradient(to bottom, #3b9229 0%, #3b9229 50%, white 50%);
+}
+
+section img{
+  position:relative;
+  left:50%;
+  top:50%;
+  margin-left:-180px;
+  margin-top: -1500px;
+}
+
+section h1{
+  text-align: center;
+  color: #008037;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw;
+}
+
+section p{
+  text-align: center;
+  color: #03642d;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+}
